@@ -1,0 +1,29 @@
+.chat-input-form {
+  width: 100%;
+  max-width: 720px;
+  margin: 0 auto;
+}
+
+.chat-input-box {
+  border-radius: 8px;
+  overflow: hidden;
+  background-color: var(--bg-muted);
+  border: 1px solid var(--border-default);
+}
+
+.chat-input-textarea {
+  width: 100%;
+  resize: none;
+  outline: none;
+  background: transparent;
+  color: var(--text-primary);
+  padding: 14px 16px 8px;
+  font-size: 15px;
+  line-height: 1.5;
+  border: none;
+  font-family: inherit;
+}
+
+.chat-input-textarea::placeholder {
+  color: var(--text-subtle);
+}

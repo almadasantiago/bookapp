@@ -1,0 +1,11 @@
+.register-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--bg-canvas);
+}
+
+.register-title {
+  color: var(--text-primary);
+}

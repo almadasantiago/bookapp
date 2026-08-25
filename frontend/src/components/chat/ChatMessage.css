@@ -1,0 +1,29 @@
+.chat-message {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.chat-message[data-user] {
+  justify-content: flex-end;
+}
+
+.chat-bubble {
+  max-width: 75%;
+  border-radius: 8px;
+  padding: 12px 16px;
+  background-color: var(--chat-ai-bg);
+  border: 1px solid var(--border-default);
+}
+
+.chat-bubble[data-user] {
+  background-color: var(--chat-user-bg);
+  border-color: transparent;
+}
+
+.chat-text {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-primary);
+  line-height: 1.6;
+}

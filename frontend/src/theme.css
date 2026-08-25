@@ -1,0 +1,32 @@
+:root {
+  --bg-canvas: #0d1117;
+  --bg-canvas-inset: #010409;
+
+  --bg-muted: #161b22;
+  --bg-emphasis: #1c2128;
+  --bg-overlay: #21262d;
+
+  --border-default: #30363d;
+  --border-muted: #21262d;
+  --border-emphasis: #6e7681;
+
+  --text-primary: #e6edf3;
+  --text-muted: #8b949e;
+  --text-subtle: #6e7681;
+
+  --accent: #58a6ff;
+  --accent-muted: #1c3a5e;
+
+  --btn-primary: #238636;
+  --btn-primary-hover: #2ea043;
+  --btn-default: #21262d;
+  --btn-default-hover: #30363d;
+  --btn-danger: #f85149;
+
+  --success: #3fb950;
+  --danger: #f85149;
+  --warning: #d29922;
+
+  --chat-user-bg: #1c3a5e;
+  --chat-ai-bg: #161b22;
+}

@@ -1,0 +1,45 @@
+.book-card {
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 8px;
+  max-width: 500px;
+  background-color: var(--bg-emphasis);
+  border: 1px solid var(--border-default);
+}
+
+.book-card-title {
+  margin: 0 0 4px;
+  font-size: 16px;
+  font-weight: 600;
+  color: var(--text-primary);
+}
+
+.book-card-meta {
+  margin: 0 0 4px;
+  font-size: 14px;
+  color: var(--text-muted);
+}
+
+.book-card-synopsis {
+  margin: 0 0 12px;
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+.book-card-btn {
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 500;
+  background-color: var(--btn-primary);
+  color: #fff;
+  border: none;
+  padding: 6px 14px;
+  font-family: inherit;
+  transition: background-color 0.2s;
+}
+
+.book-card-btn:hover {
+  background-color: var(--btn-primary-hover);
+}

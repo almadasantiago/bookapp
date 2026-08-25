@@ -1,0 +1,27 @@
+.chat-suggestions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
+  padding: 0 16px;
+}
+
+.chat-suggestion-chip {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-radius: 9999px;
+  cursor: pointer;
+  background-color: var(--bg-overlay);
+  color: var(--text-muted);
+  border: 1px solid var(--border-default);
+  padding: 6px 14px;
+  font-size: 13px;
+  font-family: inherit;
+  transition: all 0.2s;
+}
+
+.chat-suggestion-chip:hover {
+  border-color: var(--border-emphasis);
+  color: var(--text-primary);
+}

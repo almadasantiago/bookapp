@@ -1,0 +1,11 @@
+.dashboard-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex: 1;
+  background-color: var(--bg-canvas);
+}
+
+.dashboard-title {
+  color: var(--text-primary);
+}

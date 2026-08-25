@@ -1,0 +1,39 @@
+.chat-input-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-top: 1px solid var(--border-muted);
+}
+
+.chat-input-badge {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 6px;
+  background-color: var(--bg-overlay);
+  color: var(--text-muted);
+  border: 1px solid var(--border-default);
+}
+
+.send-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 6px;
+  border: none;
+  cursor: not-allowed;
+  background-color: var(--bg-overlay);
+  color: var(--text-subtle);
+  opacity: 0.5;
+  transition: all 0.2s;
+  font-family: inherit;
+}
+
+.send-btn[data-active] {
+  background-color: var(--accent);
+  color: #fff;
+  opacity: 1;
+  cursor: pointer;
+}
